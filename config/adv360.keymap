@@ -33,6 +33,16 @@
             bindings = <&kp RIGHT_COMMAND>;
             key-positions = <41 42>;
         };
+
+        left_control_combo {
+            bindings = <&kp LEFT_CONTROL>;
+            key-positions = <30 31>;
+        };
+
+        right_control_combo {
+            bindings = <&kp RIGHT_CONTROL>;
+            key-positions = <42 43>;
+        };
     };
 
     keymap {
