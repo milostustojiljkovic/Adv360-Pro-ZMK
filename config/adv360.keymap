@@ -83,6 +83,16 @@
             bindings = <&kp RIGHT_ALT>;
             key-positions = <41 42>;
         };
+
+        left_layer_2 {
+            bindings = <&mo 2>;
+            key-positions = <50 49>;
+        };
+
+        right_layer_2 {
+            bindings = <&mo 2>;
+            key-positions = <55 56>;
+        };
     };
 
     keymap {
