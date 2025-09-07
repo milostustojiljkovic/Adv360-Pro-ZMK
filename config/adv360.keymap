@@ -111,11 +111,11 @@
         default_layer {
             display-name = "Base";
             bindings = <
-&kp NUBS     &kp N1    &kp N2        &kp N3    &kp N4     &kp N5  &tog 1                                                                                       &mo 3      &kp N6  &kp N7          &kp N8        &kp N9    &kp N0    &kp MINUS
-&kp TAB      &kp Q     &kp W         &kp E     &kp R      &kp T   &mo 2                                                                                        &mo 2      &kp Y   &kp U           &kp I         &kp O     &kp P     &kp EQUAL
-&kp ESCAPE   &kp A     &kp S         &kp D     &kp F      &kp G   &kp HOME       &kp LEFT_COMMAND  &kp LEFT_CONTROL      &kp RIGHT_CONTROL  &kp RIGHT_COMMAND  &kp HOME   &kp H   &kp J           &kp K         &kp L     &kp SEMI  &kp SQT
-&kp LSHFT    &kp Z     &kp X         &kp C     &kp V      &kp B                                    &kp LEFT_ALT          &kp RIGHT_ALT                                    &kp N   &kp M           &kp COMMA     &kp DOT   &kp FSLH  &kp RSHFT
-&kp PAGE_UP  &kp BSLH  &kp CAPSLOCK  &kp LEFT  &kp RIGHT          &kp BACKSPACE  &kp ENTER         &kp END               &kp PAGE_DOWN      &kp ENTER          &kp SPACE          &kp DOWN_ARROW  &kp UP_ARROW  &kp LBKT  &kp RBKT  &kp PAGE_UP
+&kp NUBS    &kp N1    &kp N2        &kp N3    &kp N4     &kp N5  &tog 1                                                 &mo 3      &kp N6  &kp N7          &kp N8        &kp N9    &kp N0    &kp MINUS
+&kp TAB     &kp Q     &kp W         &kp E     &kp R      &kp T   &none                                                  &none      &kp Y   &kp U           &kp I         &kp O     &kp P     &kp EQUAL
+&kp ESCAPE  &kp A     &kp S         &kp D     &kp F      &kp G   &none          &none      &none      &none  &none      &none      &kp H   &kp J           &kp K         &kp L     &kp SEMI  &kp SQT
+&kp LSHFT   &kp Z     &kp X         &kp C     &kp V      &kp B                             &none      &none                        &kp N   &kp M           &kp COMMA     &kp DOT   &kp FSLH  &kp RSHFT
+&none       &kp BSLH  &kp CAPSLOCK  &kp LEFT  &kp RIGHT          &kp BACKSPACE  &kp ENTER  &none      &none  &kp ENTER  &kp SPACE          &kp DOWN_ARROW  &kp UP_ARROW  &kp LBKT  &kp RBKT  &none
             >;
         };
 
@@ -133,11 +133,11 @@
         fn {
             display-name = "Fn";
             bindings = <
-&kp F1  &kp F2        &kp F3        &kp F4        &kp F5        &kp F6  &tog 1                                      &mo 3   &kp F7        &kp F8  &kp F9        &kp F10  &kp F11  &kp F12
-&trans  &trans        &trans        &trans        &trans        &trans  &none                                       &none   &trans        &trans  &trans        &trans   &trans   &trans
-&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5  &none   &trans  &trans      &trans  &trans  &none   &kp NUMBER_6  &kp N7  &kp NUMBER_8  &kp N9   &kp N0   &trans
-&trans  &trans        &trans        &trans        &trans        &trans                  &trans      &trans                  &trans        &trans  &trans        &trans   &trans   &trans
-&trans  &trans        &trans        &trans        &trans                &trans  &trans  &trans      &trans  &trans  &trans                &trans  &trans        &trans   &trans   &trans
+&kp F1  &kp F2        &kp F3            &kp F4          &kp F5                &kp F6       &tog 1                                      &mo 3   &kp F7        &kp F8                 &kp F9           &kp F10            &kp F11  &kp F12
+&trans  &kp EXCL      &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp PERCENT  &none                                       &none   &kp CARET     &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &trans   &trans
+&trans  &kp NUMBER_1  &kp NUMBER_2      &kp NUMBER_3    &kp NUMBER_4          &kp N5       &none   &trans  &trans      &trans  &trans  &none   &kp NUMBER_6  &kp N7                 &kp NUMBER_8     &kp N9             &kp N0   &trans
+&trans  &kp EXCL      &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp PERCENT                  &trans      &trans                  &kp CARET     &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &trans   &trans
+&trans  &trans        &trans            &trans          &trans                             &trans  &trans  &trans      &trans  &trans  &trans                &trans                 &trans           &trans             &trans   &trans
             >;
         };
 
