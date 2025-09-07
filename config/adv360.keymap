@@ -21,6 +21,20 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        left_cmd_combo {
+            bindings = <&kp LEFT_COMMAND>;
+            key-positions = <31 32>;
+        };
+
+        right_cmd_combo {
+            bindings = <&kp RIGHT_COMMAND>;
+            key-positions = <41 42>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
