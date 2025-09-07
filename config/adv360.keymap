@@ -66,12 +66,12 @@
 
         left_home {
             bindings = <&kp HOME>;
-            key-positions = <17 16>;
+            key-positions = <31 32>;
         };
 
         right_home {
             bindings = <&kp HOME>;
-            key-positions = <24 25>;
+            key-positions = <41 42>;
         };
 
         left_opt {
@@ -96,12 +96,12 @@
 
         left_end {
             bindings = <&kp END>;
-            key-positions = <32 31>;
+            key-positions = <17 16>;
         };
 
         right_end {
             bindings = <&kp END>;
-            key-positions = <41 42>;
+            key-positions = <24 25>;
         };
     };
 
