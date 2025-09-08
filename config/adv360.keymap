@@ -86,12 +86,12 @@
 
         left_layer_2 {
             bindings = <&mo 2>;
-            key-positions = <50 49>;
+            key-positions = <18 17>;
         };
 
         right_layer_2 {
             bindings = <&mo 2>;
-            key-positions = <55 56>;
+            key-positions = <23 24>;
         };
 
         left_end {
