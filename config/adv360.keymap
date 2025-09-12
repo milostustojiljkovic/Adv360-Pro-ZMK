@@ -97,11 +97,13 @@
         left_end {
             bindings = <&kp END>;
             key-positions = <17 16>;
+            timeout-ms = <40>;
         };
 
         right_end {
             bindings = <&kp END>;
             key-positions = <24 25>;
+            timeout-ms = <40>;
         };
     };
 
