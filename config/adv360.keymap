@@ -27,25 +27,25 @@
         left_cmd_combo {
             bindings = <&kp LEFT_COMMAND>;
             key-positions = <31 30>;
-            timeout-ms = <20>;
+            timeout-ms = <10>;
         };
 
         right_cmd_combo {
             bindings = <&kp RIGHT_COMMAND>;
             key-positions = <42 43>;
-            timeout-ms = <20>;
+            timeout-ms = <10>;
         };
 
         left_control_combo {
             bindings = <&kp LEFT_CONTROL>;
             key-positions = <48 49>;
-            timeout-ms = <20>;
+            timeout-ms = <10>;
         };
 
         right_control_combo {
             bindings = <&kp RIGHT_CONTROL>;
             key-positions = <56 57>;
-            timeout-ms = <20>;
+            timeout-ms = <10>;
         };
 
         left_cmd_shift {
@@ -75,13 +75,13 @@
         left_home {
             bindings = <&kp HOME>;
             key-positions = <31 32>;
-            timeout-ms = <20>;
+            timeout-ms = <10>;
         };
 
         right_home {
             bindings = <&kp HOME>;
             key-positions = <41 42>;
-            timeout-ms = <20>;
+            timeout-ms = <10>;
         };
 
         left_opt {
@@ -97,25 +97,25 @@
         left_layer_2 {
             bindings = <&mo 2>;
             key-positions = <18 17>;
-            timeout-ms = <20>;
+            timeout-ms = <10>;
         };
 
         right_layer_2 {
             bindings = <&mo 2>;
             key-positions = <23 24>;
-            timeout-ms = <20>;
+            timeout-ms = <10>;
         };
 
         left_end {
             bindings = <&kp END>;
             key-positions = <17 16>;
-            timeout-ms = <20>;
+            timeout-ms = <10>;
         };
 
         right_end {
             bindings = <&kp END>;
             key-positions = <24 25>;
-            timeout-ms = <20>;
+            timeout-ms = <10>;
         };
     };
 
