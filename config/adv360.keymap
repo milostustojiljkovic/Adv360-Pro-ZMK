@@ -48,30 +48,6 @@
             timeout-ms = <2>;
         };
 
-        left_cmd_shift {
-            bindings = <&kp LS(LEFT_META)>;
-            key-positions = <30 31 32>;
-            timeout-ms = <60>;
-        };
-
-        right_cmd_shift {
-            bindings = <&kp RS(RIGHT_META)>;
-            key-positions = <41 42 43>;
-            timeout-ms = <60>;
-        };
-
-        left_cmd_ctrl {
-            bindings = <&kp LG(LEFT_CONTROL)>;
-            key-positions = <48 49 50>;
-            timeout-ms = <60>;
-        };
-
-        right_ctrl_cmd {
-            bindings = <&kp RG(RIGHT_CONTROL)>;
-            key-positions = <55 56 57>;
-            timeout-ms = <60>;
-        };
-
         left_home {
             bindings = <&kp HOME>;
             key-positions = <31 32>;
