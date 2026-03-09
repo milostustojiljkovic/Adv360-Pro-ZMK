@@ -138,7 +138,7 @@
 &none           &none         &none         &none         &none         &none         &bootloader                                       &bootloader      &none  &none       &none       &none  &none  &none
 &studio_unlock  &none         &none         &none         &none         &none         &none        &none  &none      &none  &none       &stp STP_BAT     &none  &none       &none       &none  &none  &none
 &none           &none         &none         &none         &macro_ver    &none                             &none      &none                               &none  &none       &none       &none  &none  &none
-&none           &none         &none         &none         &none                       &bt BT_CLR   &none  &none      &none  &bl BL_TOG  &rgb_ug RGB_TOG         &bl BL_DEC  &bl BL_INC  &none  &none  &none
+&none           &none         &none         &none         &none                       &bt BT_CLR   &none  &none      &none  &bl BL_TOG  &rgb_ug RGB_TOG         &bl BL_DEC  &bl BL_INC  &none  &none  &kp C
             >;
         };
 
